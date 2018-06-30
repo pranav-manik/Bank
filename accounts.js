@@ -14,7 +14,7 @@ module.exports = {
 	deposit: function( account, money) {
 		if (account == "spending")
 		{
-			user.accounts.spending += money;
+			accounts.spending += money;
 		}
 		else if (account == "checking")
 		{

@@ -77,7 +77,7 @@ module.exports = {
 	},
 
 	printUserReceipt: function() {
-		console.log(name);
+		//console.log(name);
 		myAccount.printReceipt();
 	}
 }
